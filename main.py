@@ -1,16 +1,5 @@
 import turtle
 
-def triangle(edge=100):
-    turtle.forward(edge)
-    turtle.right(120)
-    turtle.left(60)
-    turtle.forward(edge)
-    turtle.right(120)
-    turtle.forward(edge)
-    turtle.right(120)
-    turtle.forward(edge)
-    turtle.right(120)
-
 def rectangle(edge=100):
     turtle.forward(edge)
     turtle.right(90)
@@ -20,6 +9,8 @@ def rectangle(edge=100):
     turtle.right(90)
     turtle.forward(edge)
     turtle.right(90)
+
+
 rectangle()
 
 
@@ -29,7 +20,10 @@ def ears():
     turtle.forward(100)
     turtle.circle(25)
     turtle.circle(35)
+
+
 ears()
+
 
 def eyes(edge=100):
     turtle.penup()
@@ -43,8 +37,9 @@ def eyes(edge=100):
     turtle.forward(70)
     turtle.pendown()
     turtle.circle(10)
-eyes()
 
+
+eyes()
 
 
 def nose(edge=20):
@@ -64,7 +59,9 @@ def nose(edge=20):
     turtle.right(120)
     turtle.penup()
 
+
 nose()
+
 
 def mouth():
     turtle.right(40)
@@ -74,6 +71,7 @@ def mouth():
     turtle.left(90)
     turtle.pendown()
     turtle.circle(20, extent=200)
+
 
 mouth()
 
