@@ -11,10 +11,6 @@ def triangle(edge=100):
     turtle.forward(edge)
     turtle.right(120)
 
-
-#for i in range(5):
- #   triangle()
-
 def rectangle(edge=100):
     turtle.forward(edge)
     turtle.right(90)
